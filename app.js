@@ -23,7 +23,7 @@ const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
 
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect("mongodb+srv://fizasaif0233:qdA1eXFPEF64Sh3S@cluster0.px328v5.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
